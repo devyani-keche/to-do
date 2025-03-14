@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "To-do",
+    "slug": "to-do",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.devyanik.todo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devyanik.todo"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b35c830-4ca7-44bb-8baa-e5d991b2bae3"
+      }
+    },
+    "owner": "devyanik",
+    "updates": {
+      "url": "https://u.expo.dev/3b35c830-4ca7-44bb-8baa-e5d991b2bae3"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
